@@ -127,7 +127,7 @@ To ensure the statistical validity of the regression results, Hamza computed and
 
 ---
 
-## 👨‍💻 Detailed Individual Contributions: **Zaid (35%)**
+## 👨‍💻 Detailed Individual Contributions: **Zaid (33%)**
 *Primary focus on the backbone of the project and the behavioral classification engine.*
 
 * **Data Ingestion & Memory Management:** Built an automated Python pipeline to handle 10.6M+ records efficiently.
@@ -139,7 +139,7 @@ To ensure the statistical validity of the regression results, Hamza computed and
 
 ---
 
-## 👨‍💻 Detailed Individual Contributions: **Hamza (25%)**
+## 👨‍💻 Detailed Individual Contributions: **Hamza (27%)**
 *Primary focus on continuous prediction and statistical rigor for the regression task.*
 
 * **Task B (Regression):**
