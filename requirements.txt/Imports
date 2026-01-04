@@ -1,0 +1,43 @@
+# ==============================================================================
+# PROJECT: Customer Behavior Analytics (Task A & Task B)
+# MODULE: Library Imports & Environment Setup
+# ==============================================================================
+
+# 1. Data Manipulation & System Tools
+import pandas as pd
+import numpy as np
+import os
+import gc  # Garbage Collection for memory management
+
+# 2. Data Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+import missingno as msno  # For missing value analysis (Zaid's Task)
+
+# 3. Preprocessing & Feature Engineering
+from sklearn.preprocessing import StandardScaler
+from category_encoders import TargetEncoder
+from statsmodels.stats.outliers_influence import variance_inflation_factor # For Multicollinearity (VIF)
+
+# 4. Handling Class Imbalance (Task A)
+from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import RandomUnderSampler
+from collections import Counter
+
+# 5. Machine Learning Models (Classification & Regression)
+import lightgbm as lgb
+import xgboost as xgb
+from sklearn.model_selection import train_test_split, KFold
+
+# 6. Evaluation Metrics
+from sklearn.metrics import (
+    classification_report, 
+    roc_auc_score, 
+    average_precision_score, 
+    confusion_matrix
+)
+
+# Configuration for plotting
+%matplotlib inline
+sns.set(style="whitegrid")
+
