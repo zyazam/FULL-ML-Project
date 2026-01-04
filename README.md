@@ -121,8 +121,8 @@ To ensure the statistical validity of the regression results, Hamza computed and
 ## 📈 Contribution Breakdown
 | Member | Role | Contribution % |
 | :--- | :--- | :--- |
-| **Zaid** | Infrastructure, EDA & Classification Lead | **35%** |
-| **Hamza** | Regression & Statistical Diagnostics Lead | **25%** |
+| **Zaid** | Infrastructure, EDA & Classification Lead | **33%** |
+| **Hamza** | Regression & Statistical Diagnostics Lead | **27%** |
 | **Total** | | **60%** |
 
 ---
